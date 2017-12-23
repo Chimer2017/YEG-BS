@@ -1,0 +1,13 @@
+img {
+  border: 2px green solid;
+
+}
+
+#button {
+  border: 10px lime solid;
+  margin: 15px;
+}
+
+#why {
+  background: lime
+}

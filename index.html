@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Young-Entreprenuer-Global</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,17 +19,17 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-sm-3">Home</div>
         <div class="col-sm-3">About</div>
-        <div class="col-sm-3">Get involved</div>
-        <div class="col-sm-3">The network</div>
+        <div class="col-sm-3">Programs</div>
+        <div class="col-sm-3">Get Involved</div>
       </div><!-- nav bar -->
 
       <div class="row">
         <figure>
-          <img src="images/startup-banner1.jpg" alt="startup banner">
+          <img class="img-responsive"src="images/startup-banner1.jpg" alt="startup banner">
         </figure>
       </div><!-- banner -->
 
@@ -39,7 +40,7 @@
 
 
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6" id="why">
           <h3>Why we do it?</h3>
           <ul>
             <li>diversity statistic</li>
@@ -48,9 +49,22 @@
           </ul>
         </div>
         <div class="col-sm-6">
-          <img src="images/diversity.jpg" alt="diversity picture">
+          <img class="img-responsive" src="images/diversity.jpg" alt="diversity picture">
         </div>
       </div><!-- why YEG section: statistics and images -->
+
+      <div class="row">
+        <div class="row text-center">
+          <div class="col-sm-4 col-sm-push-4">
+            <h3>Get Involved</h3>
+          </div>
+        </div><!-- Upper row  with Get Invloved title -->
+        <div class="row">
+            <button id="button"class="btn btn-primary btn-lg btn-block" type="button">Join as a mentor</button>
+            <button id="button" class="btn btn-primary btn-lg btn-block" type="button">Join as a student, class, or organization</button>
+        </div><!-- Lower row with buttons -->
+
+      </div><!-- Get involved section with two buttons -->
 
     </div><!-- container -->
 
