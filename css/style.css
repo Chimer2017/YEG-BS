@@ -11,3 +11,19 @@ img {
 #why {
   background: lime
 }
+
+nav {
+  margin-top: 5px;
+
+  margin-bottom: 5px;
+}
+
+.jumbotron {
+  background-image: url("../images/startup-banner1.jpg");
+  color: white;
+}
+
+#jumbotron img {
+  max-width: 100%;
+  height: auto;
+}
