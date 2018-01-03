@@ -27,3 +27,12 @@ nav {
   max-width: 100%;
   height: auto;
 }
+
+.background {
+  color: red;
+}
+
+#middle {
+  margin: 15px;
+  border: 3px black solid;
+}
